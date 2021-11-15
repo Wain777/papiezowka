@@ -32,19 +32,15 @@ body {
     background-color: yellow;
     border: black solid 1px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 125%;
-    font-family: cursive;
+    font-size: 120%;
 }
 #right {
     text-align: center;
     float: right;
     width: 49.8%;
     background-color: yellow;
-    border: black solid 1px; 
-    height: 60%;
+    border: black solid 1px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 150.5%;
-    font-family: cursive;
 }
 footer {
     
