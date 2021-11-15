@@ -48,7 +48,7 @@ footer {
 audio {
     padding: 10px;
 }
-#barkatext {
+#barkatext, #bmtext {
     font-family: cursive;
     font-size: 32px;
 }
