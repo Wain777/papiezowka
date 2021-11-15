@@ -29,7 +29,7 @@ body {
     background-color: yellow;
     border: black solid 1px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 125%;
     font-family: cursive;
 }
 #right {
@@ -39,6 +39,9 @@ body {
     background-color: yellow;
     border: black solid 1px; 
     height: 60%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150.5%;
+    font-family: cursive;
 }
 footer {
     
