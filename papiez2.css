@@ -50,10 +50,12 @@ footer {
     height: 70%;
 }
 #papiezkremowki {
-    width: 50%;
+    width: 26.6%;
+    padding: 1%;
 }
 #papiezyk {
-    width: 50%;
+    width: 29.6%;
+    margin-bottom: 0.8%;
 }
 #zakup{
     font-size: 230%;
