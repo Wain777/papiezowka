@@ -7,13 +7,6 @@ body {
     background-color: gold;
     border: black solid 1px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 300%;
-    text-align: center;
-}
-#menu {
-    background-color: gold;
-    border: black solid 1px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 350%;
     display: flex;
     justify-content: center;
