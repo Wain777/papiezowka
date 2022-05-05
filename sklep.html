@@ -5,32 +5,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Papież</title>
-    <link rel="stylesheet" href="papiez2.css">
     <link rel="icon" href="papiez polak.jpg">
 </head>
+<style>
+    body {
+        background-image: url("papiez polak.jpg");
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .menu {
+        background-color: gold;
+        border: black solid 1px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 350%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.25%;
+    }
+    .menupapiez, .menukremowka, .menusklep, .menumemy {
+        border: black solid 2px;
+        border-radius: 10px;
+        box-shadow: 0 0px 7px 5px goldenrod;
+        font-size: 70%;
+        background-color: black;
+        padding: 0.15%;
+        color: white;
+        margin-inline: 10px;
+    }
+    .left {
+        text-align: center;
+        float: left;
+        width: 49.89%;
+        background-color: yellow;
+        border: black solid 1px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 119.2%;
+    }
+    .right {
+        text-align: center;
+        float: right;
+        width: 49.8%;
+        background-color: yellow;
+        border: black solid 1px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .kubek1 {
+        width: 40%;
+        height: 60%;
+        padding: 2%;
+    }
+    .zakup{
+        font-size: 230%;
+    }
+    .kontakt {
+        padding: 1%;
+    }
+    .kontakttext {
+        font-size: 300%;
+    }
+    .or {
+        font-size: 250%;
+    }
+    .gp {
+        padding: 1%;
+        width: 51.7%;
+    }
+    .pt {
+        width: 33%;
+        margin-bottom: 0.6%;
+    }
+    a:link {
+        text-decoration: none;
+    }
+</style>
 <body>
-    <div id="menu">
-        <a id="menupapiez" href="index.html">PAPIEŻ POLAK</a>
-        <a id="menukremowka" href="kremowka.html">KREMÓWKA</a>
-        <a id="menusklep" href="sklep.html">SKLEP</a>
-        <a id="menumemy" href="memy.html">MEMY</a>
+    <div class="menu">
+        <a class="menupapiez" href="index.html">PAPIEŻ POLAK</a>
+        <a class="menukremowka" href="kremowka.html">KREMÓWKA</a>
+        <a class="menusklep" href="sklep.html">SKLEP</a>
+        <a class="menumemy" href="memy.html">MEMY</a>
     </div>
-    <div id="left">
+    <div class="left">
         <h1>Kubek z obrazkiem papieża i kremówek</h1>
         <h1>Cena: 2137.69 PLN</h1>
-        <img id="kubek1" src="kubek1.jfif">
+        <img class="kubek1" src="kubek1.jfif">
     </div>
-    <div id="right">
+    <div class="right">
         <h1>A można, jak najbardziej, jeszcze jak!</h1>
         <br>
-        <span id="zakup">Jeśli jesteś zainteresowany zakupem kubka, napisz do mnie a dogadamy się w sprawie dostawy oraz płatności.</span>
-        <div id="kontakt"> <br>
-            <span id="kontakttext"><b>Kontakt:  </b></span>
-            <a href="https://discord.gg/AUUtEeV2bn"><img width="5%" src="dc.png"></a><span id="or">or</span><a href="https://instagram.com/m473us2/"><img width="5%" src="ig.png"></a>
+        <span class="zakup">Jeśli jesteś zainteresowany zakupem kubka, napisz do mnie a dogadamy się w sprawie dostawy oraz płatności.</span>
+        <div class="kontakt"> <br>
+            <span class="kontakttext"><b>Kontakt:  </b></span>
+            <a href="https://discord.gg/AUUtEeV2bn"><img width="5%" src="dc.png"></a><span class="or">or</span><a href="https://instagram.com/m473us2/"><img width="5%" src="ig.png"></a>
         </div>
     </div>
-    <footer>
-        
-    </footer>
 </body>
 </html>
