@@ -1,77 +1,97 @@
+* {
+    margin: auto;
+}
 body {
     background-image: url("files/papiez polak.jpg");
-    overflow: hidden;
+
 }
 .menu {
+    width: 100%;
     background-color: gold;
-    border: black solid 1px;
+    border-bottom: black solid 3px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 350%;
+    font-size: 40px;
+    height: 60px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0.25%;
 }
-.menupapiez, .menukremowka, .menusklep, .menumemy {
-    border: black solid 2px;
-    border-radius: 10px;
-    box-shadow: 0 0px 7px 5px goldenrod;
-    font-size: 70%;
-    background-color: black;
-    padding: 0.15%;
-    color: white;
-    margin-inline: 10px;
+.menu img {
+    width: 45px;
+    border-radius: 3px;
 }
-.left {
-    text-align: center;
+.logo {
+    height: 45px;
     float: left;
-    width: 49.89%;
-    background-color: yellow;
-    border: black solid 1px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 119.2%;
+    margin-left: 160px;
 }
-.right {
-    text-align: center;
+ul {
+    list-style-type: none;
     float: right;
-    width: 49.8%;
+    margin-right: 160px;
+}
+.list li {
+    color: black;
+    border-right: 2px solid black;
+    float: left;
+    padding: 0 30px 0 30px;
+}
+.list li:first-child {
+    border-left: 2px solid black;
+}
+.main {
+    text-align: center;
+    width: 100%;
     background-color: yellow;
-    border: black solid 1px;
+    border-bottom: 1px solid black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px 0 20px;
 }
-.papiezkremowki {
-    width: 26.6%;
-    padding: 1%;
+.kubek, .cap, .worek {
+    display: inline-block;
+    padding: 40px;
 }
-.papiezyk {
-    width: 29.6%;
-    margin-bottom: 0.8%;
+.bot {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: yellow;
+    border-top: 1px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    padding: 10px 0 10px;
+
 }
-.kubek1 {
-    width: 40%;
-    height: 60%;
-    padding: 2%;
+.png {
+    width: 250px;
+    height: 220px;
+    border-radius: 40px;
+    padding: 25px;
 }
 .zakup{
     font-size: 230%;
 }
 .kontakt {
-    padding: 1%;
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    width: 300px;
+}
+.kontakt img {
+    width: 50px;
+    border-radius: 10px;
 }
 .kontakttext {
-    font-size: 300%;
+    font-size: 30px;
 }
-.or {
+.kontakt span {
     font-size: 250%;
 }
-.gp {
-    padding: 1%;
-    width: 51.7%;
+.gp, .pt, .papiezkremowki, .papiezyk {
+    padding: 30px 10px 30px;
+    height: 300px;
 }
-.pt {
-    width: 33%;
-    margin-bottom: 0.6%;
-}
-a:link {
+a:link, a:visited {
     text-decoration: none;
+    color: black;
 }
