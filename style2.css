@@ -1,0 +1,96 @@
+* {
+    margin: auto;
+}
+body {
+    background-image: url("files/papiez polak.jpg");
+}
+.menu {
+    width: 100%;
+    background-color: gold;
+    border-bottom: black solid 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    height: 60px;
+    display: flex;
+}
+.menu img {
+    width: 45px;
+    border-radius: 3px;
+}
+.logo {
+    height: 45px;
+    float: left;
+    margin-left: 160px;
+}
+ul {
+    list-style-type: none;
+    float: right;
+    margin-right: 160px;
+}
+.list li {
+    color: black;
+    border-right: 2px solid black;
+    float: left;
+    padding: 0 30px 0 30px;
+}
+.list li:first-child {
+    border-left: 2px solid black;
+}
+.main {
+    text-align: center;
+    width: 100%;
+    background-color: yellow;
+    border-bottom: 1px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px 0 20px;
+}
+.kubek, .cap, .worek {
+    display: inline-block;
+    padding: 40px;
+}
+.bot {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: yellow;
+    border-top: 1px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    padding: 10px 0 10px;
+
+}
+.png {
+    width: 250px;
+    height: 220px;
+    border-radius: 40px;
+    padding: 25px;
+}
+.zakup{
+    font-size: 230%;
+}
+.kontakt {
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    width: 300px;
+}
+.kontakt img {
+    width: 50px;
+    border-radius: 10px;
+}
+.kontakttext {
+    font-size: 30px;
+}
+.kontakt span {
+    font-size: 250%;
+}
+.gp, .pt, .papiezkremowki, .papiezyk {
+    padding: 30px 10px 30px;
+    height: 300px;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
