@@ -1,0 +1,77 @@
+body {
+    background-image: url("files/papiez polak.jpg");
+    overflow: hidden;
+}
+.menu {
+    background-color: gold;
+    border: black solid 1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 350%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.25%;
+}
+.menupapiez, .menukremowka, .menusklep, .menumemy {
+    border: black solid 2px;
+    border-radius: 10px;
+    box-shadow: 0 0px 7px 5px goldenrod;
+    font-size: 70%;
+    background-color: black;
+    padding: 0.15%;
+    color: white;
+    margin-inline: 10px;
+}
+.left {
+    text-align: center;
+    float: left;
+    width: 49.89%;
+    background-color: yellow;
+    border: black solid 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 119.2%;
+}
+.right {
+    text-align: center;
+    float: right;
+    width: 49.8%;
+    background-color: yellow;
+    border: black solid 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.papiezkremowki {
+    width: 26.6%;
+    padding: 1%;
+}
+.papiezyk {
+    width: 29.6%;
+    margin-bottom: 0.8%;
+}
+.kubek1 {
+    width: 40%;
+    height: 60%;
+    padding: 2%;
+}
+.zakup{
+    font-size: 230%;
+}
+.kontakt {
+    padding: 1%;
+}
+.kontakttext {
+    font-size: 300%;
+}
+.or {
+    font-size: 250%;
+}
+.gp {
+    padding: 1%;
+    width: 51.7%;
+}
+.pt {
+    width: 33%;
+    margin-bottom: 0.6%;
+}
+a:link {
+    text-decoration: none;
+}
